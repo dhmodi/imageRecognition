@@ -1,5 +1,11 @@
 #!/usr/bin/env python
 
+from __future__ import print_function
+from future.standard_library import install_aliases
+
+install_aliases()
+
+
 import os
 from flask import Flask, request, redirect, url_for, flash, session
 from werkzeug.utils import secure_filename
