@@ -58,10 +58,10 @@ def upload_file():
 
             classes = model.predict_classes(img)
             if (classes[0] == 0):
-                return (filename + ": AFS")
+                return (filename + ": Air Flow Sensor")
             elif (classes[0] == 1):
-                return (filename + ": FI")
+                return (filename + ": Fuel Injector")
             else:
-                return (filename + ": SP")
+                return (filename + ": Spark Plug")
     #
     return 'AFS'
