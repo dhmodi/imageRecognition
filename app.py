@@ -41,7 +41,7 @@ def upload_file():
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
             # return redirect(url_for('upload_file',
             #                         filename=filename))
-            model = load_model('model.h5')
+            model = load_model('model/model.h5')
             #
             # model.compile(loss='binary_crossentropy',
             #               optimizer='rmsprop',
