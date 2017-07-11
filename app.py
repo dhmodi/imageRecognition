@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import os
 from flask import Flask, request, redirect, url_for, flash, session
 from werkzeug.utils import secure_filename
