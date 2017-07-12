@@ -2,6 +2,6 @@ Flask==0.12.2
 Flask-Session==0.3.1
 future==0.16.0
 Keras==2.0.6
-tensorflow==0.12.1
+tensorflow==1.2.1
 numpy==1.13.1
 opencv-python==3.2.0.7
