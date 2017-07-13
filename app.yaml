@@ -1,7 +1,6 @@
 application: weighty-gasket-89012
 version: 1
 api_version: 1
-runtime: python35
 threadsafe: true
 
 runtime: python
