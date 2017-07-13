@@ -1,0 +1,25 @@
+application: weighty-gasket-89012
+version: 1
+api_version: 1
+runtime: python35
+threadsafe: true
+
+handlers:
+- url: /.*
+  script: app.application
+
+libraries:
+- name: Flask
+  version: 0.12.2
+- name: Flask-Session
+  version: 0.3.1
+- name: future
+  version: 0.16.0
+- name: Keras
+  version: 2.0.6
+- name: tensorflow
+  version: 1.2.1
+- name: numpy
+  version: 1.13.1
+- name: opencv-python
+  version: 3.2.0.7
