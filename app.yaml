@@ -1,8 +1,3 @@
-application: weighty-gasket-89012
-version: 1
-api_version: 1
-threadsafe: true
-
 runtime: python
 env: flex
 
